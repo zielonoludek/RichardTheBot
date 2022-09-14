@@ -1,20 +1,21 @@
-import discord
+import discord, os
+from discord.ext import commands
 
-intents = discord.Intents.default()
-intents.message_content = True
+token = open("token","r").read()
 
-client = discord.Client(intents=intents)
+def main():
+    intents = discord.Intents.default()
+    intents.message_content = True
 
-@client.event
-async def on_ready():
-    print(f'We have logged in as {client.user}')
+    bot = commands.Bot(command_prefix='r!', intents=intents)
+    bot.load_extension('bot')
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
+    @bot.event
+    async def on_command_error(ctx, error):
+        if isinstance(error, commands.CommandNotFound):
+            await ctx.send("Unknown command")
 
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
+    bot.run(token)
+    return 0
 
-client.run('your token here')
+main()
