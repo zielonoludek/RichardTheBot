@@ -31,14 +31,7 @@ with requests.Session() as s:
         soup = BeautifulSoup(response.content, 'lxml')
 
         for link in soup.find('ul', class_='newsgrid-list').find_all('a'):
-            template["page"] = p
-            template["id"] += 1
-            template["title"] = link["title"]
-            template["href"] = link["href"]
-            template["img"] = link.find('img')['src']
-            template["content"] = link.find('div', class_='text').text
-        
-        archive["announcements"].append(template)
+            archive["announcements"].append({p, +1, link["title"], link["href"], link.find('img')['src'], link.find('div', class_='text').text})
 
 with open("announcements_archive.json", "w") as json_file:
     json.dump(archive, json_file, indent=4)
