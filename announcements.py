@@ -18,7 +18,7 @@ except:
     print("-> Connection Failed")
 
 ''' Load Archive & varables assignment '''
-with open("announcements_archive.json", "r") as json_file:
+with open("archive.json", "r") as json_file:
     archive = json.load(json_file)
 previous, page, id = 0, archive['announcements'] if len(archive['announcements']) else 1, archive['announcements'][-1] if len(archive['announcements']) else 1
 
@@ -44,7 +44,7 @@ try:
 
     ''' Save data to json '''
     try:
-        with open("announcements_archive.json", "w", encoding='utf8') as json_file:
+        with open("archive.json", "w", encoding='utf8') as json_file:
             json.dump(archive, json_file, indent=4, ensure_ascii=False)
         print("-> Data saved to json succesfully")
     except:
