@@ -24,8 +24,7 @@ previous, page, id = 0, archive['announcements'] if len(archive['announcements']
 
 ''' Pages check '''
 with requests.Session() as s:
-    while True:
-        if previous == page: break
+    while previous != page:
         response = s.get(f'{base_url}/wat/articles/list/komunikaty-dla-studentow/?strona={page}', headers=payload)
         soup = BeautifulSoup(response.content, 'lxml', from_encoding=encoding)
         previous = page
@@ -39,7 +38,7 @@ try:
             soup = BeautifulSoup(response.content, 'lxml', from_encoding=encoding)
 
             for link in soup.find('ul', class_='newsgrid-list').find_all('a'):
-                archive['announcements'].append({"page": p, "id": id, "title": link["title"], "href": link["href"], "img": link.find('img')['src'].replace('\n', ''), "content": link.find('div', class_='text').text.strip().replace('\n', '')})
+                archive['announcements'].append({"page": p, "id": id, "title": link["title"], "href": base_url+link["href"], "img": base_url+link.find('img')['src'].replace('\n', ''), "content": link.find('div', class_='text').text.strip().replace('\n', '')})
                 id+=1
     print("-> Page scrapped succesfully")
 
