@@ -1,1 +1,1 @@
-# RichardTheBot is the unofficial WAT's annoucement bot for students
+# RichardTheBot is the unofficial WAT's an noucement bot for students
