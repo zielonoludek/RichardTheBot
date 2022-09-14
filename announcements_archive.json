@@ -1,11 +1,204 @@
 {
-    "template": {
-        "page": 0,
-        "id": 0,
-        "title": "",
-        "href": "",
-        "img": "",
-        "content": ""
-    },
-    "announcements": []
+    "announcements": [
+        {
+            "page": 5,
+            "id": 1,
+            "title": "Dom studencki nr 3 ju\u017c otwarty",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-05-26q-dom-studencki-nr-3-juz-otwarty/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce od dnia 25 maja 2020 r. ponownie istnieje mo\u017cliwo\u015b\u0107 zakwaterowania w Domu Studenckim nr 3.\n                            \n                        "
+        },
+        {
+            "page": 4,
+            "id": 2,
+            "title": "Konkurs na najlepsz\u0105 prac\u0119 dyplomow\u0105",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-10-22m-konkurs-na-najlepsza-prace-dyplomowa/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/94/f9/94f96732-c539-4f16-b3f2-907f3ed0c824/konkurs_na_prace_dyplomowa.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce Parlament Student\u00f3w Rzeczypospolitej Polskiej organizuje konkurs na najlepsz\u0105 prac\u0119 dyplomow\u0105.\n                            \n                        "
+        },
+        {
+            "page": 4,
+            "id": 3,
+            "title": "Wnioski o pomoc materialn\u0105",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-10-01n-wnioski-o-pomoc-materialna/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/b6/9a/b69a0345-f3b5-4060-8781-4dec7e3471fe/wnioski_o_pomoc_materialna.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce od dnia 1 pa\u017adziernika 2020 r. do dnia 19 pa\u017adziernika 2020 r. b\u0119dzie mo\u017cna sk\u0142ada\u0107 wnioski o pomoc materialn\u0105 na semestr zimowy w \u2026\n                            \n                        "
+        },
+        {
+            "page": 4,
+            "id": 4,
+            "title": "Stypendia m. st. Warszawy im. Jana Paw\u0142a II",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-09-29i-stypendia-m-st-warszawy-im-jana-pawa-ii/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/31/24/3124e481-5110-46c2-ab88-e0ee4d4b1d7f/stypiendia_jp2.png__749x493_q85_crop_subsampling-2_upscale.png\n",
+            "content": "\n                            \n                                Informujemy, \u017ce do dnia 12 pa\u017adziernika 2020 r. studenci maj\u0105 mo\u017cliwo\u015b\u0107 sk\u0142adania wniosk\u00f3w o stypendia m. st. Warszawy im. Jana Paw\u0142a II.\n                            \n                        "
+        },
+        {
+            "page": 4,
+            "id": 5,
+            "title": "Termin kwaterowania w Domu Studenckim nr 3",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-09-175-termin-kwaterowania-w-domu-studenckim-nr-3/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/b9/8f/b98fa794-ed8d-4426-ab2f-369e61f8dcef/termin_zakwaterowania.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce kwaterowanie w Domu Studenckim nr 3, rozpocznie si\u0119 od 28 wrze\u015bnia 2020 r.\n                            \n                        "
+        },
+        {
+            "page": 4,
+            "id": 6,
+            "title": "Stypendium ministra za znacz\u0105ce osi\u0105gni\u0119cia naukowe/sportowe",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-09-16p-stypendium-ministra-za-znaczace-osiagniecia-naukowesportowe/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/ec/d4/ecd42c9a-1157-496a-bdad-dc53d86cddad/stypendia_mon.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy \u017ce studenci pragn\u0105cy ubiega\u0107 si\u0119 o stypendium ministra za znacz\u0105ce osi\u0105gni\u0119cia naukowe/sportowe, powinni w terminie do dnia 7 pa\u017adziernika 2020 r. z\u0142o\u017cy\u0107 w Dziale \u2026\n                            \n                        "
+        },
+        {
+            "page": 4,
+            "id": 7,
+            "title": "Kwaterowanie w domach studenckich WAT na rok akademicki 2020/2021 \u2013 studenci I roku",
+            "href": "/wat/articles/komunikaty-dla-studentow/2020-08-21c-kwaterowanie-w-domach-studenckich-wat-na-rok-akademicki-20202021-studenci-i-roku/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/e4/b7/e4b7120b-97c2-4f65-8970-8dbbcd7e3a10/kwaterowanie_w_domach_studenckich.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce wszyscy studenci sk\u0142adaj\u0105cy wniosek o zakwaterowanie w domu studenckim WAT na rok akademicki 2020/2021\n                            \n                        "
+        },
+        {
+            "page": 3,
+            "id": 8,
+            "title": "Stypendia m.st Warszawy im. Jana Paw\u0142a II",
+            "href": "/wat/articles/komunikaty-dla-studentow/stypendia-mst-warszawy-im-jana-pawla-ii/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce do dnia 10 pa\u017adziernika studenci mog\u0105 ubiega\u0107 si\u0119 o stypendia m.st. Warszawy im. Jana Paw\u0142a II.\n                            \n                        "
+        },
+        {
+            "page": 3,
+            "id": 9,
+            "title": "Stypendium ministra za znacz\u0105ce osi\u0105gni\u0119cia naukowe/sportowe (dotyczy tylko student\u00f3w cywilnych)",
+            "href": "/wat/articles/komunikaty-dla-studentow/stypendium-ministra-za-znaczace-osiagniecia-naukowesportowe-dotyczy-tylko-studentow-cywilnych/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy \u017ce studenci pragn\u0105cy ubiega\u0107 si\u0119 o stypendium ministra za znacz\u0105ce osi\u0105gniecia naukowe/sportowe, powinni w terminie do dnia 10 wrze\u015bnia 2021 r. w Dziale Spraw \u2026\n                            \n                        "
+        },
+        {
+            "page": 3,
+            "id": 10,
+            "title": "Program stypendialny Fundacji SILNIA!  Rok akademicki 2021/2022",
+            "href": "/wat/articles/komunikaty-dla-studentow/program-stypendialny-fundacji-silnia-brrok-akademicki-20212022/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Program stypendialny skierowany jest m.inn. do student\u00f3w uczelni wy\u017cszych, kt\u00f3rzy osi\u0105gaj\u0105 dobre wyniki w nauce, dla kt\u00f3rych trudna sytuacja materialna stanowi utrudnienie w dalszym rozwoju \u2026\n                            \n                        "
+        },
+        {
+            "page": 3,
+            "id": 11,
+            "title": "Kwaterowanie w domach studenckich WAT na rok akademicki 2021/2022 \u2013 studenci I roku",
+            "href": "/wat/articles/komunikaty-dla-studentow/kwaterowanie-w-domach-studenckich-wat-na-rok-akademicki-20212022-studenci-i-roku/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce wszyscy studenci sk\u0142adaj\u0105cy wniosek o zakwaterowanie w domu studenckim WAT na rok akademicki 2021/2022 przechodz\u0105 post\u0119powanie kwalifikacyjne zgodnie z \u201eRegulaminem \u015bwiadcze\u0144 dla student\u00f3w \u2026\n                            \n                        "
+        },
+        {
+            "page": 3,
+            "id": 12,
+            "title": "Wnioski o pomoc materialn\u0105",
+            "href": "/wat/articles/komunikaty-dla-studentow/2021-02-25u-wnioski-o-pomoc-materialna/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/b6/9a/b69a0345-f3b5-4060-8781-4dec7e3471fe/wnioski_o_pomoc_materialna.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce od dnia 1 marca 2021 r. do dnia 15 marca 2021 r. b\u0119dzie mo\u017cna sk\u0142ada\u0107 wnioski o pomoc materialn\u0105 na semestr letni w \u2026\n                            \n                        "
+        },
+        {
+            "page": 3,
+            "id": 13,
+            "title": "Lista rankingowa 10% najlepszych absolwent\u00f3w",
+            "href": "/wat/articles/komunikaty-dla-studentow/2021-01-07c-lista-rankingowa-10-najlepszych-absolwentow/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce w Dziale Spraw Studenckich (tel. 261 837 147) dost\u0119pna jest lista rankingowa 10% najlepszych absolwent\u00f3w I, II, III stopnia Wojskowej Akademii Technicznej w \u2026\n                            \n                        "
+        },
+        {
+            "page": 2,
+            "id": 14,
+            "title": "Psychologiczny Punkt Konsultacyjny",
+            "href": "/wat/articles/komunikaty-dla-studentow/psychologiczny-punkt-konsultacyjny/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Drodzy studenci uprzejmie informujemy, \u017ce istnieje mo\u017cliwo\u015b\u0107 skorzystania ze wsparcia w Psychologicznym Punkcie Konsultacyjnym.\n                            \n                        "
+        },
+        {
+            "page": 2,
+            "id": 15,
+            "title": "\u015awiadczenia pomocy materialnej w semestrze letnim",
+            "href": "/wat/articles/komunikaty-dla-studentow/swiadczenia-pomocy-materialnej-w-semestrze-letnim/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce od 28 lutego 2022 r. do 14 marca 2022 r. b\u0119dzie mo\u017cna sk\u0142ada\u0107 wnioski o stypendium socjalne, stypendium rektora oraz o stypendium dla \u2026\n                            \n                        "
+        },
+        {
+            "page": 2,
+            "id": 16,
+            "title": "Lista rankingowa 10% najlepszych absolwent\u00f3w",
+            "href": "/wat/articles/komunikaty-dla-studentow/lista-rankingowa-10-najlepszych-absolwentow/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce w Dziale Spraw Studenckich (tel. 261 837 147) dost\u0119pna jest lista rankingowa 10% najlepszych absolwent\u00f3w I, II i III stopnia Wojskowej Akademii Technicznej \u2026\n                            \n                        "
+        },
+        {
+            "page": 2,
+            "id": 17,
+            "title": "Wsparcie finansowe dla student\u00f3w",
+            "href": "/wat/articles/komunikaty-dla-studentow/wsparcie-finansowe-dla-studentow/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Uprzejmie prosimy o zapoznanie si\u0119 z informacjami na temat wsparcia finansowego w\u015br\u00f3d student\u00f3w oferowanego przez Ministerstwo Edukacji i Nauki.\n                            \n                        "
+        },
+        {
+            "page": 2,
+            "id": 18,
+            "title": "Konkurs \u201eStudent-Wynalazca\u201d",
+            "href": "/wat/articles/komunikaty-dla-studentow/konkurs-student-wynalazca/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce na Politechnice \u015awi\u0119tokrzyskiej ruszy\u0142 nab\u00f3r wniosk\u00f3w w ramach XII Og\u00f3lnopolskiego Konkursu \u201eStudent-Wynalazca\u201d\n                            \n                        "
+        },
+        {
+            "page": 2,
+            "id": 19,
+            "title": "Stypendia dla student\u00f3w cywilnych",
+            "href": "/wat/articles/komunikaty-dla-studentow/stypendia-dla-studentow-cywilnych/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce od 1 pa\u017adziernika 2021 r. w systemie USOS zostanie otwarta zostanie mo\u017cliwo\u015b\u0107 wype\u0142niania wniosk\u00f3w o: stypendium socjalne stypendium rektora stypendium dla os\u00f3b niepe\u0142nosprawnych \u2026\n                            \n                        "
+        },
+        {
+            "page": 1,
+            "id": 20,
+            "title": "Stypendia m.st. Warszawy im. Jana Paw\u0142a II",
+            "href": "/wat/articles/komunikaty-dla-studentow/kds-stypendia-mst-warszawy-im-jana-pawla-ii/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy \u017ce od 1 wrze\u015bnia 2022 r. do 10 pa\u017adziernika 2022 r. prowadzona jest rekrutacja do warszawskiego programu stypendialnego im. Jana Paw\u0142a II. Podmiotem przyznaj\u0105cym \u2026\n                            \n                        "
+        },
+        {
+            "page": 1,
+            "id": 21,
+            "title": "Stypendium ministra za znacz\u0105ce osi\u0105gniecia naukowe/sportowe (dotyczy student\u00f3w cywilnych)",
+            "href": "/wat/articles/komunikaty-dla-studentow/kom-stud-stypendium-ministra-za-znaczace-osiagniecia-naukowesportowe-dotyczy-studentow-cywilnych/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy \u017ce studenci pragn\u0105cy ubiega\u0107 si\u0119 o stypendium ministra za znacz\u0105ce osi\u0105gniecia naukowe/sportowe na rok akademicki 2022/2023, powinni w terminie do dnia 10 wrze\u015bnia 2022 \u2026\n                            \n                        "
+        },
+        {
+            "page": 1,
+            "id": 22,
+            "title": "Kwaterowanie w domach studenckich na rok akademicki 2022/2023 \u2013 studenci I roku studi\u00f3w",
+            "href": "/wat/articles/komunikaty-dla-studentow/stud-kwaterowanie-w-domach-studenckich-na-rok-akademicki-20222023-studenci-i-roku-studiow/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce wszyscy studenci sk\u0142adaj\u0105cy wniosek o zakwaterowanie w domu studenckim na rok akademicki 2022/2023 przechodz\u0105 post\u0119powanie kwalifikacyjne zgodnie z \u201eRegulaminem \u015bwiadcze\u0144 dla student\u00f3w WAT\u201d.\n                            \n                        "
+        },
+        {
+            "page": 1,
+            "id": 23,
+            "title": "Kwaterowanie w domach studenckich  na rok akademicki 2022/2023 \u2013 studenci starszych rocznik\u00f3w",
+            "href": "/wat/articles/komunikaty-dla-studentow/kwaterowanie-w-domach-studenckich-na-rok-akademicki-20222023-studenci-starszych-rocznikow/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce wszyscy studenci sk\u0142adaj\u0105cy wniosek o zakwaterowanie w domu studenckim na rok akademicki 2022/2023 przechodz\u0105 post\u0119powanie kwalifikacyjne zgodnie z \u201eRegulaminem \u015bwiadcze\u0144 dla student\u00f3w WAT\u201d.\n                            \n                        "
+        },
+        {
+            "page": 1,
+            "id": 24,
+            "title": "Konkurs o Nagrod\u0119 Jamesa Dysona",
+            "href": "/wat/articles/komunikaty-dla-studentow/konkurs-o-nagrode-jamesa-dysona/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce 16 marca bie\u017c\u0105cego roku rozpocz\u0119to przyjmowanie zg\u0142osze\u0144 m\u0142odych in\u017cynier\u00f3w do nowej edycji Konkursu Nagroda Jamesa Dysona, organizowanego co roku przez Fundacj\u0119 Dyson i \u2026\n                            \n                        "
+        },
+        {
+            "page": 1,
+            "id": 25,
+            "title": "Program stypendialny banku Santander",
+            "href": "/wat/articles/komunikaty-dla-studentow/program-stypendialny-banku-santander/",
+            "img": "\n\n/wat/u/filer_public_thumbnails/3a/8d/3a8d2b5b-b7d3-49e1-8fff-5b01e2d47970/_watka.jpg__749x493_q85_crop_subsampling-2_upscale.jpg\n",
+            "content": "\n                            \n                                Informujemy, \u017ce trwa nab\u00f3r wniosk\u00f3w na kolejn\u0105 edycj\u0119 bezp\u0142atnych kurs\u00f3w i szkole\u0144 w ramach nowych Stypendi\u00f3w Santander pod has\u0142em #NeverStopLearning.\n                            \n                        "
+        }
+    ]
 }
