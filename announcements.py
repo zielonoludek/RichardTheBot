@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, time
 from bs4 import BeautifulSoup
 
 with requests.Session() as s:
@@ -24,13 +24,14 @@ with requests.Session() as s:
         for p in range(last_in_archives["page"], 0, -1):
             for link in BeautifulSoup(s.get(f'{base_url}/wat/articles/list/komunikaty-dla-studentow/?strona={p}', headers=payload).content, 'lxml').find('ul', class_='newsgrid-list').find_all('a'):
                 if link["title"] == last_in_archives["title"]: continue
+                to_upload = {"page": p, "id": last_in_archives["id"], "title": link["title"], "href": base_url+link["href"], "img": base_url+link.find('img')['src'].replace('\n', ''), "content": link.find('div', class_='text').text.strip().replace('\n', '')}
                 #Save to json
                 with open("archives.json",'r+') as archives:
                     archives_update = json.load(archives)
-                    archives_update["announcements"].append({"page": p, "id": last_in_archives["id"], "title": link["title"], "href": base_url+link["href"], "img": base_url+link.find('img')['src'].replace('\n', ''), "content": link.find('div', class_='text').text.strip().replace('\n', '')})
+                    archives_update["announcements"].append(to_upload)
                     archives.seek(0)
-                    json.dump(archives_update, archives, indent = 4, ensure_ascii=False)
                 last_in_archives["id"] += 1
+                print(json.dumps(to_upload, indent = 2))
         
         annoucements()
 
