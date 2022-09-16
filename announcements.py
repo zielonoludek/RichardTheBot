@@ -1,4 +1,4 @@
-import requests, json, time
+import requests, json, datetime
 from bs4 import BeautifulSoup
 
 with requests.Session() as s:
@@ -31,7 +31,7 @@ with requests.Session() as s:
                     archives_update["announcements"].append(to_upload)
                     archives.seek(0)
                 last_in_archives["id"] += 1
-                print(json.dumps(to_upload, indent = 2))
+                print(f'-> Annoucement added [{datetime.datetime.now()}]\n{json.dumps(to_upload, indent = 2)}\n')
         
         annoucements()
 
