@@ -33,3 +33,5 @@ with requests.Session() as s:
                 last_in_archives["id"] += 1
         
         annoucements()
+
+annoucements()
