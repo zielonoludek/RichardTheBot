@@ -15,9 +15,12 @@ with requests.Session() as s:
         }
 
         #Set flag
-        with open("archives.json", "r", encoding='utf8') as json_file:
-            archive = json.load(json_file)
-            last_in_archive = {"pages": math.ceil(len(archive["announcements"])/6), "title": archive["announcements"][-1]["title"]} if archive["announcements"] else {"pages": 1, "title": ""}
+        try:
+            with open("archives.json", "r", encoding='utf8') as json_file:
+                archive = json.load(json_file)
+                last_in_archive = {"pages": math.ceil(len(archive["announcements"])/6), "title": archive["announcements"][-1]["title"]} if archive["announcements"] else {"pages": 1}
+        except:
+            archive, last_in_archive = {"announcements": []}, {"pages": 1}
 
         #Check pages
         while True:
@@ -31,10 +34,14 @@ with requests.Session() as s:
 
         #Scrap missing annoucements
         def scrapp_annoucement():
-            wait_animation = animation.Wait(['-','\\','|','/'], color="blue", speed=0.1)
-            print('\n-> Looking for announcements:')
-            wait_animation.start()
+            #Variable
             archive_update = []
+
+            #Start checking
+            print('\n-> Looking for announcements:')
+            wait_animation = animation.Wait(['-','\\','|','/'], color="blue", speed=0.1)
+            wait_animation.start()
+
             try:
                 for p in range(1, last_in_archive["pages"]+1):
                     for link in BeautifulSoup(s.get(f'{base_url}/wat/articles/list/komunikaty-dla-studentow/?strona={p}', headers=payload).content, 'lxml').find('ul', class_='newsgrid-list').find_all('a'):
@@ -51,13 +58,15 @@ with requests.Session() as s:
             if archive_update:
                 archive_update.reverse()
                 [archive["announcements"].append(update) for update in archive_update]
-                with open("archives.json",'r+', encoding="utf-8") as json_file: json.dump(archive, json_file, indent=4, ensure_ascii=False)
-                del archive_update
-            else:
+                with open("archives.json", 'r+' if os.path.isfile("archives.json") else 'w', encoding="utf-8") as json_file: json.dump(archive, json_file, indent=4, ensure_ascii=False)
+
+                #Prepare next run
                 try: last_in_archive["title"]
-                except KeyError: last_in_archive["title"] = link["title"]
-                time.sleep(60)
-                wait_animation.stop()
+                except KeyError: last_in_archive["title"] = archive_update[-1]["title"]
+                del archive_update
+
+            time.sleep(5)
+            wait_animation.stop()
 
             scrapp_annoucement()
             
