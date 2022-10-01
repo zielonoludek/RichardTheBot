@@ -9,8 +9,13 @@ def main():
 
     bot = commands.Bot(command_prefix='r!', intents=intents, help_command=None)
 
-    bot.run(token)
+    bot.load_extension("bot")
 
-    return 0
+    @bot.event
+    async def on_command_error(ctx, error):
+        if isinstance(error, commands.CommandNotFound):
+            await ctx.send("Unknown command!")
+
+    bot.run(token)
 
 main()
